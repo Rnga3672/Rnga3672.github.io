@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: #E3E3E3;
+		background-color: #1BE990;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +16,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .img-circle {
-		border-radius: 50%;
+		border: 6px solid rgba(91, 239, 11, 0.73);
+		border-radius: 2000px;
 }
 
 .my-button {
@@ -65,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** thin bar ***/
 
 .thin-bar {
-		border-bottom: 5px solid #F33F12;
+		border-bottom: 5px solid #66ff33;
 }
 
 
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 #about {
 		margin-top: 10em;
 		border: 1px solid #eee;
-		background-color: white;
+		background-color: #7EFFC7;
 		padding-bottom: 1em;
 }
 
@@ -115,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 		text-transform: uppercase;
 		border: 2px solid rgba(255, 103, 68, 0.91);
 		border-radius: 50px;
-		background: white;
+		background: violet;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
@@ -140,17 +141,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #4c6d86;
+	background-color: #78E6F7;
 	padding: 6em 4em 5.6em;
 }
 
 #experience h2 {
-	color: #fff;
+	color: #E415B3;
 	margin-bottom: .7em;
 }
 
 #experience .tag-line {
-	color: white;
+	color: #E415B3;
 	font-size: 1.4em;
 }
 
@@ -164,14 +165,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .experience-topics p {
-	color: #ACAEB2;
+	color: #E415B3;
 	font-family: "Maven pro", sans-serif;
 	/*font-weight: 500;*/
 }
 
 .experience-topics ul li {
 	list-style: none;
-	color: #bbd2ff;
+	color: #E415B3;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 }
@@ -199,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details h3 {
-	color: #738182;
+	color: #738154;
 	text-transform: uppercase;
 }
 
