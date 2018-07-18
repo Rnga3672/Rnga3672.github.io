@@ -33,6 +33,11 @@ const Portfolio = function() {
 		return words;
 	}
 
+	var contactmebutton = document.getElementById("CONTACTMEBUTTON");
+	contactmebutton.addEventListener("click", function() {
+		alert("If the button does not work, you may just have an e-mail \"link\" problem. Just e-mail to rnga3672@gmail.com if it doesn't work. Both options do the same thing anyway.");
+    });
+
 	function makeWordCloud(words) {
 		$('.teaching-domains').jQCloud(words, {delay: 120});
 	}

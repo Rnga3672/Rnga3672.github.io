@@ -15,9 +15,12 @@ h1, h2, h3, h4, h5, h6 {
 		background: #ffff66;
 }
 
+
+
 .img-circle {
 		border: 6px solid rgba(91, 239, 11, 0.73);
 		border-radius: 2000px;
+		
 }
 
 .my-button {
@@ -77,7 +80,30 @@ h1, h2, h3, h4, h5, h6 {
 		border: 1px solid #eee;
 		background-color: #7EFFC7;
 		padding-bottom: 1em;
+		background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+        background-size: 1800% 1800%;
+        -webkit-animation: rainbow 18s ease infinite;
+        -z-animation: rainbow 18s ease infinite;
+        -o-animation: rainbow 18s ease infinite;
+         animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
 
 #about img {
 		max-width: 15em;
